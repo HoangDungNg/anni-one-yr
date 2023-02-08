@@ -110,11 +110,16 @@ section img#mountains_front {
   color: #fff;
 }
 .sec2 {
-  position: relative;
+  margin: 80px;
   padding: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 200px;
+}
+.sec2 h2 {
+  color: #fff;
+  width: 400px;
 }
 /*==================Album==================*/
 .card-container-column {
