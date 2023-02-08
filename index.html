@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>My Love | For BK</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">By Rian</a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="album.html">Album</a></li>
+        <li><a href="message.html">Thoughts</a></li>
+        <li><a href="more.html">More</a></li>
+      </ul>
+    </header>
+    <section>
+      <img src="img/stars.png" id="stars" />
+      <img src="img/moon.png" id="moon" />
+      <img src="img/mountains_behind.png" id="mountains_behind" />
+      <h2 id="text">I love u ❤️</h2>
+      <img src="img/mountains_front_2.png" id="mountains_front" />
+    </section>
+    <div class="sec">
+      <h2>Happy 1-year anniversary</h2>
+      <p>
+        Tada! Đây là món quà anh làm tặng em nè. Em có thích món quà này hong.
+        Nó là một cái application dành riêng cho tụi mình. Lý do mà anh làm cái
+        background anh với em đứng dưới trăng là tại vì anh luôn ấn tượng với
+        khoảnh khắc em nhìn trăng đếm lịch =)))). Nói chứ tại vì anh thấy trăng
+        nó thơ mộng. Với lại lúc trước anh up story anh có từng để 1 bài hát có
+        câu "I love you to the moon and back". Nên ánh trăng trong application
+        cũng có nghĩa giống như lời bài hát đó đó :3. Em kéo xuống em có thấy
+        bầu trời, ánh trăng với núi chuyển động hong. Nghệ thuật cả đó =)))) Còn
+        có câu "I love u" chạy qua chạy lại nữa kìa hihi.
+        <br /><br />Sau một năm trải qua nhiều thứ với em thì anh khom bao giờ
+        thấy bớt yêu em cả. Anh chỉ thấy bản thân ngày càng trường thành và biết
+        cố gắng hơn để có một tương lai với em. Nên em đừng lo lắng là tình cảm
+        anh thay đổi nha. Đúng như em nói là gần đây mình cũng có nhiều xích
+        mích. Nhưng bản thân anh chưa bao giờ suy nghĩ rằng những xích mích đó
+        sẽ làm anh bớt yêu em. Đôi khi trong lúc xích mích, cảm xúc của anh cũng
+        hong được tích cực lắm nên có mấy lúc anh hong hiểu cho em. Sau khi mình
+        xích mích anh cũng nhiều lần suy nghĩ lại, cố gắng hiểu sâu vấn đề hơn
+        và nhiều lúc cũng thấy bản thân có lỗi với em thiệt. Này là anh nói
+        thiệt lòng á nha. Anh chưa bao giờ có suy nghĩ em giận vô lý hay em sai
+        gì cả. Anh luôn nhìn nhận về phía bản thân anh trước nên anh mong em
+        đừng cảm thấy là anh công kích em hay gì hết nha.<br /><br />Yêu xa thì
+        cũng vất vả thiệt á vì nhiều lúc 2 đứa bận rộn công việc và mệt mỏi thì
+        nhiều khi bị trái múi giờ và 2 đứa khom ở bên cạnh nhau động viên an ủi
+        được. Em có biết là ngay từ đầu lúc anh mới thích em, anh đã có cảm giác
+        em là người phù hợp và có thể đi rất lâu dài với anh. Anh hong biết tại
+        sao anh lại có cảm giác như zậy nữa. Anh có cảm giác gắn kết với em rất
+        nhiều lúc mà mới thích em luôn á. Nên em hong cần phải coi tarot chủ đề
+        "người ấy có phải the one" hay là "người ấy có thương bạn nhiều hay
+        không" đâu =)))). Khom cần thông điệp zũ trụ đâu anh vẫn biết mình là
+        của nhao mà 😁😘.<br /><br />Món quà này thì anh hong có dành nhiều thời
+        gian để làm lắm đâu tại mấy ngày nay anh cũng bận rộn thiệt. Với lại anh
+        thích rượu vang, hoa hồng, netflix èn chill hơn ❤️. Nhưng mà hong phải
+        là anh hong trân trọng anni 1 năm của mình đâu nha. Lúc chưa biết em đi
+        qua Can anh từng lên kế hoạch anni 1 năm sẽ đi du lịch ròi sẽ tạo bất
+        ngờ cho em á. Ở đây thì anh nói sương sương zậy thoi, em bấm qua mục
+        Album á, để con trỏ chuột lên từng ảnh sẽ có những thông điệp nho nhỏ
+        gửi tới em. Giống như cách em ghi thông điệp đằng sau mấy tấm anh xong
+        em đưa cho anh zậy á. Nhưng mà anh là phiên bản online còn em là phiên
+        bản offline =)))).
+      </p>
+    </div>
+
+    <script>
+      let stars = document.getElementById('stars');
+      let moon = document.getElementById('moon');
+      let mountains_behind = document.getElementById('mountains_behind');
+      let mountains_front = document.getElementById('mountains_front');
+      let text = document.getElementById('text');
+      let header = document.querySelector('header');
+
+      window.addEventListener('scroll', function () {
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.05 + 'px';
+        mountains_behind.style.top = value * 0.5 + 'px';
+        mountains_front.style.top = value * 0 + 'px';
+        text.style.marginRight = value * 3 + 'px';
+        text.style.marginTop = value * 1.5 + 'px';
+        header.style.top = value * 0.5 + 'px';
+      });
+    </script>
+  </body>
+</html>
